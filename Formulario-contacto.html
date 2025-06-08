@@ -1,0 +1,30 @@
+<!doctype htmtl>
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Contacto Formula1</title>
+		
+	</head>
+	<body bgcolor="orange">
+		<center>
+		  <h1>Evianos un Mensaje</h1>
+		  <form method="post" action="guardar.php">
+		    <fieldset>
+		    	<legend>Formulario de Contacto</legend>
+		    	<label>Nombres:</label>
+		   	<input type="text" id="nombre" name="nombre" value="" placeholder="nombres" required="required" autofocus/>
+		    	<label>Apellidos:</label>
+		    	<input type="text" id="apellido" name="apellido" value="" placeholder="Apellidos" required="required"/><br><br>
+		    	<label>Correo electronico:</label>
+		    	<input type="email" id="email" name="email" value="" placeholder="nombre@email.com" required="required"/><br><br>
+			<label>Asunto:</label>
+		    	<input type="text" id="asunto" name="asunto" value="" placeholder="Asunto""/><br><br>
+			<label>Mensaje:</label><br>
+		    	<textarea id="message" name="message" placeholder="Escribir Mensaje"></textarea><br><br>
+		  	<input type="submit" value="Enviar Datos" id="submit" />
+		   </fieldset>
+		  </form>
+		</center>
+		<a href="index.html">Regresar a Pagina Principal</a>
+	</body>
+</html>

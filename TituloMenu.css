@@ -1,0 +1,45 @@
+body{
+     	background-color:yellow;
+}
+h1 {
+    background-color: #ff0000;
+    color: #f7fbff;
+    border: solid;
+    border-color:#000;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+*{
+    padding: 0px;
+    margin: 0px:
+}
+p{
+    font-size:20px;
+    font-family:times new roman;
+    text-align:justify;
+}
+#encabezado{
+    margin: auto;
+    width: 600px;
+    
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display:block;
+}
+.nav > li{
+    float: left;
+}
+.nav li a:hover{
+    background-color: #696666;
+}
+footer#pie{
+	color:red;
+}
